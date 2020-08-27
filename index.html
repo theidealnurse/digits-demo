@@ -4,63 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AProject</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
-    <link href="//db.onlinewebfonts.com/c/89248b0583721153668df86453b579de?family=Halyard+Text"
+    <link href="https://fonts.google.com/?query=Halyard+"
       rel="stylesheet" type="text/css"/>
+      
+
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo">
-            <h1 class="logo-text">digits:</h1>
-            <ul class="nav-main-links">
-                <li>Homepages</li>
-                <li>Products</li>
-                <li>Company</li>
-                <li>Prices</li>
-                <li>Blog</li>
-            </ul>
-        
-            <ul class="nav-side-links">
-                <li>+00 123 456 789</li>
-                <li>Contact Us</li>
-            </ul>
-
-        </div>
-    </header>
-
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">digits:</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Homepages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+      
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Company
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">+00 123 456 789</a>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary">Contact Us</button>
+            </li>
+        </ul>    
+      </nav>
+      
     <main class="main-content"> 
         <div class="hero-text">
-            <h2>Good design meets great user experience</h2>
+            <h2>Good design meets <br> great user experience</h2>
             <p>For everyone, from beginners to experts</p>
-            <button class="btn">Buy Digits</button>
+            <button type="button" class="btn btn-primary">Buy Digits</button>
+            <!-- <button type="button" class="btn btn-primary">See the Features</button> -->
+
+            <!-- <button class="btn">Buy Digits</button> -->
             <button class="btn">See the Features</button>
 
         </div>
 
         <div class="browser">
-            <img src= "img/Graphic.png" alt="browser">
-            <img src="img/bg.png" alt="browser">
+            <img class="mx-auto d-block" src= "img/Graphic.png" alt="">
+            <img class="mx-auto d-block" src="img/Trusted by forward-thinking software teams around the world.png" alt="">
         </div>
+        
+        <ul>
 
-        <ul class="logos">
-            <img src="img/Trusted by forward-thinking software teams around the world.png" alt="">
-            <img src="img/logo-1.png" alt="">
-            <img src="img/logo-2.png" alt="">
-            <img src="img/logo-3.png" alt="">
-            <img src="img/logo-4.png" alt="">
-            <img src="img/logo-5.png" alt="">
-            <img src="img/logo-6.png" alt="">
-            <img src="img/logo-7.png" alt="">
-        </ul> 
+        </ul>
+
+        <ul class="thumbnails">
+            <li class="span7">
+              <a href="#" class="thumbnail">
+                <img src="img/logo-1.png" alt="">
+              </a>
+            </li>
+            <li class="span7">
+                <a href="#" class="thumbnail">
+                  <img src="img/logo-2.png" alt="">
+                </a>
+            </li>
+            <li class="span7">
+                <a href="#" class="thumbnail">
+                  <img src="img/logo-3.png" alt="">
+                </a>
+            </li>  
+            <li class="span7">
+                <a href="#" class="thumbnail">
+                  <img src="img/logo-4.png" alt="">
+                </a>
+            </li>
+            <li class="span7">
+                <a href="#" class="thumbnail">
+                  <img src="img/logo-5.png" alt="">
+                </a>
+            </li>
+            <li class="span7">
+                <a href="#" class="thumbnail">
+                  <img src="img/logo-6.png" alt="">
+                </a>
+            </li>
+            <li class="span7">
+                <a href="#" class="thumbnail">
+                  <img src="img/logo-7.png" alt="">
+                </a>
+            </li>    
+        </ul>
+
+        <!-- <ul class="logos">
+            <li></li>
+            <li><img src="img/logo-1.png" alt=""></li>
+            <li><img src="img/logo-2.png" alt=""></li>
+            <li><img src="img/logo-3.png" alt=""></li>
+            <li><img src="img/logo-4.png" alt=""></li>
+            <li><img src="img/logo-5.png" alt=""></li>
+            <li><img src="img/logo-6.png" alt=""></li>
+            <li><img src="img/logo-7.png" alt=""></li>
+        </ul>  -->
         
         <div class="hero-text-two">
             <h1>Whatever work you do, we're able to help</h1>
         </div>
-        <div class="left-side">
+        <ul class="left-side">
             <img src="img/image 2.png" alt="">
             <img src="img/image 3.png" alt="">
             <img src="img/image 4.png" alt="">
-        </div>
+        </ul>
 
         <div class="right-side">
             <ul class="services">
@@ -90,30 +161,22 @@
         </div>
         <button class="btn">Buy Digits</button>
 
-        <div class="mini-browsers">
-            <img src="img/browser0.png" alt="">
-            <img src="img/browser (1).png" alt="">
-            <img src="img/browser (2).png" alt="">
-            <img src="img/browser (3).png" alt="">
-            <img src="img/browser (4).png" alt="">
-            <img src="img/browser (5).png" alt="">
-            <img src="img/browser (6).png" alt="">
-            <img src="img/browser (7).png" alt="">
-            <img src="img/browser (8).png" alt="">
-            <img src="img/browser (9).png" alt="">
-            <img src="img/browser (10).png" alt="">
-
-        <!-- </div>
-        <div class="hero-text">
-            <h1>What others are saying</h1>
-        </div> -->
-        <div class="testimonials">
-            <img src="img/Section_ Testimonials.png" alt="">
-        </div>
-
-        <div class="left-side">
-            
-        </div>
+        <ul class="mini-browsers">
+            <li><img src="img/browser0.png" alt=""></li>
+            <li><img src="img/browser (1).png" alt=""></li>
+            <li><img src="img/browser (2).png" alt=""></li>
+            <li><img src="img/browser (3).png" alt=""></li>
+            <li><img src="img/browser (4).png" alt=""></li>
+            <li><img src="img/browser (5).png" alt=""></li>
+            <li><img src="img/browser (6).png" alt=""></li>
+            <li><img src="img/browser (7).png" alt=""></li>
+            <li><img src="img/browser (8).png" alt=""></li>
+            <li><img src="img/browser (9).png" alt=""></li>
+            <li><img src="img/browser (10).png" alt=""></li>
+        </ul>
     </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
 </body>
 </html>
